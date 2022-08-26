@@ -1,0 +1,21 @@
+{
+  "name": "@integratedexperts/scss-variables-extractor",
+  "version": "0.1.0",
+  "description": "Extract SCSS variables to make them available in scripts using vanilla JS.",
+  "keywords": [
+    "SCSS",
+    "variabels"
+  ],
+  "author": "Alex Skrypnyk <alex@integratedexperts.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint:fix": "eslint --fix index.js",
+    "test": "qunit"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-airbnb": "^19",
+    "qunit": "^2"
+  }
+}
