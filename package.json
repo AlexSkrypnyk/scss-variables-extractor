@@ -1,6 +1,6 @@
 {
   "name": "@integratedexperts/scss-variables-extractor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract SCSS variables to make them available in scripts using vanilla JS.",
   "keywords": [
     "SCSS",

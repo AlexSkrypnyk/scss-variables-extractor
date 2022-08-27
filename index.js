@@ -62,7 +62,7 @@ function parseValue(string) {
 }
 
 function parseValueMap(string) {
-  let ret = [];
+  let ret = {};
 
   string = string.trim();
   // "Unwrap" value map.
@@ -79,7 +79,7 @@ function parseValueMap(string) {
     if (isKeyValuePairValue(values[i])) {
       ret = { ...ret || {}, ...parseKeyValuePair(values[i]) };
     } else {
-      ret = ret || [];
+      ret = Array.isArray(ret) ? (ret || []) : [];
       ret.push(parseValue(values[i]));
     }
   }

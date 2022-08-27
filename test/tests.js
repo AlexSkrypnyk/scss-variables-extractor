@@ -40,7 +40,7 @@ QUnit.test.each('Variables', [
   ["$var1: map.get($val2, 'mapval1');", {'var1': "map.get($val2, 'mapval1')"}],
 
   // List.
-  ["$var1: ();", {'var1': []}],
+  ["$var1: ();", {'var1': {}}],
   ["$var1: (v1);", {'var1': ['v1']}],
   ["$var1: (v1, v2);", {'var1': ['v1', 'v2']}],
   ["$var1: ('v1', 'v2');", {'var1': ["'v1'", "'v2'"]}],
@@ -168,8 +168,8 @@ QUnit.test.each('Variables', [
     $theme-theme-dark-background-color: black;
     `,
     {
-      "theme-colors": [],
-      "theme-colors-brands": [],
+      "theme-colors": {},
+      "theme-colors-brands": {},
       "theme-colors-brands-default": {
         "dark": {
           "brand1": "#123456",
