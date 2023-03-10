@@ -6,7 +6,7 @@
     "SCSS",
     "variabels"
   ],
-  "author": "Alex Skrypnyk <alex@integratedexperts.com>",
+  "author": "Alex Skrypnyk <alex@drevops.com>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
