@@ -1,21 +1,28 @@
 {
-  "name": "@alexskrypnyk/scss-variables-extractor",
-  "version": "0.1.1",
-  "description": "Extract SCSS variables to make them available in scripts using vanilla JS.",
-  "keywords": [
-    "SCSS",
-    "variabels"
-  ],
-  "author": "Alex Skrypnyk <alex@drevops.com>",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint index.js",
-    "lint:fix": "eslint --fix index.js",
-    "test": "qunit"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-airbnb": "^19",
-    "qunit": "^2"
-  }
+    "name": "@alexskrypnyk/scss-variables-extractor",
+    "version": "0.1.1",
+    "description": "Extract SCSS variables to make them available in scripts using vanilla JS.",
+    "keywords": [
+        "SCSS",
+        "variabels"
+    ],
+    "license": "GPL-2.0-or-later",
+    "author": "Alex Skrypnyk <alex@drevops.com>",
+    "contributors": [],
+    "repository": "github:AlexSkrypnyk/scss-variables-extractor",
+    "bugs": "https://github.com/AlexSkrypnyk/scss-variables-extractor/issues",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "lint": "eslint index.js",
+        "lint:fix": "eslint --fix index.js",
+        "test": "qunit"
+    },
+    "devDependencies": {
+        "eslint": "^8",
+        "eslint-config-airbnb": "^19",
+        "qunit": "^2"
+    }
 }
