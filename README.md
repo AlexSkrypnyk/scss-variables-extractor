@@ -9,7 +9,7 @@
 
 [![GitHub Issues](https://img.shields.io/github/issues/AlexSkrypnyk/scss-variables-extractor.svg)](https://github.com/AlexSkrypnyk/scss-variables-extractor/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AlexSkrypnyk/scss-variables-extractor.svg)](https://github.com/AlexSkrypnyk/scss-variables-extractor/pulls)
-[![Test](https://github.com/AlexSkrypnyk/scss-variables-extractor/actions/workflows/test.yml/badge.svg)](https://github.com/AlexSkrypnyk/scss-variables-extractor/actions/workflows/test.yml)
+[![Test](https://github.com/AlexSkrypnyk/scss-variables-extractor/actions/workflows/test-nodejs.yml/badge.svg)](https://github.com/AlexSkrypnyk/scss-variables-extractor/actions/workflows/test-nodejs.yml)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/AlexSkrypnyk/scss-variables-extractor)
 ![LICENSE](https://img.shields.io/github/license/AlexSkrypnyk/scss-variables-extractor)
 ![Renovate](https://img.shields.io/badge/renovate-enabled-green?logo=renovatebot)
