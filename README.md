@@ -78,3 +78,6 @@ console.log(vars);
     npm install
     npm lint
     npm test
+
+---
+Repository created using https://getscaffold.dev/ project scaffold template    
